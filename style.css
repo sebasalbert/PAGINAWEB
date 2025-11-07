@@ -1,3 +1,7 @@
+
+* {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 header {
     color: #004374;
     background-image: url("caminoprofesional.png");
@@ -9,7 +13,6 @@ header ul{
       padding: 0;
        display: flex;
     justify-content: space-around;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
       gap: 15px
 }
@@ -28,15 +31,49 @@ header ul{
       border-radius: 5px;
     display: flex;
     justify-content: space-around;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     }
     nav ul li a:hover {
       background-color: blue;
     }
-    .footer-container{
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
+
+    .footer {
+      background-color: #333; 
+      color: #f4f4f4;        
+      padding: 40px 0 0;
+    }
+
+    .footer-container {
+      max-width: 1600px;
+      margin: auto;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .footer-section {
+      width: 25%;
+      padding: 0 15px;
+      display: block;
+    }
+
+    .footer-section h4 {
+      font-size: 20px;
+      color: aliceblue;
+      margin-bottom: 25px;
+      font-weight: 500;
+      border-bottom: 2px solid #00c3ff;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .footer-section ul li a {
+      text-decoration: none;
+      
     }
